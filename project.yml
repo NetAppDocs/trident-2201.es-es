@@ -20,7 +20,7 @@ settings:
   - name: Astra Trident
     url: "/trident"
     version-number: latest
-  langs: es-es,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr
+  langs: es-es,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,fr-fr,it-it
 sidebar:
   entries:
   - title: Documentos de Astra Trident
