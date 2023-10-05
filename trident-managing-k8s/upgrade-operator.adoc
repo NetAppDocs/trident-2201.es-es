@@ -69,7 +69,7 @@ Version:  v20.10.1
 ----
 +
 
-NOTE: Si el estado muestra `Updating`, asegúrese de resolverlo antes de continuar. Para obtener una lista de los posibles valores de estado, consulte https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["aquí"^].
+NOTE: Si el estado muestra `Updating`, asegúrese de resolverlo antes de continuar. Para obtener una lista de los posibles valores de estado, consulte link:../trident-get-started/kubernetes-deploy-operator.html["aquí"].
 
 . Cree el `TridentOrchestrator` CRD mediante el manifiesto proporcionado con el instalador de Trident.
 +
@@ -86,7 +86,7 @@ $ kubectl create -f deploy/crds/trident.netapp.io_tridentorchestrators_crd_post1
 . Elimine el operador de ámbito del espacio de nombres mediante su manifiesto. Para completar este paso, necesita el `bundle.yaml` archivo utilizado para implementar el operador namespace-scoped. Usted puede obtener `bundle.yaml` desde la https://github.com/NetApp/trident/blob/stable/v20.10/deploy/bundle.yaml["Repositorio de Trident"^]. Asegúrese de utilizar la rama adecuada.
 +
 
-NOTE: Debe realizar los cambios necesarios en los parámetros de instalación de Trident (por ejemplo, cambiar los valores para `tridentImage`, `autosupportImage`, repositorio privado de imágenes y provisión `imagePullSecrets`) después de eliminar el operador de ámbito de espacio de nombres y antes de instalar el operador de ámbito de clúster. Para obtener una lista completa de los parámetros que se pueden actualizar, consulte link:../trident-deploy-k8s/kubernetes-customize-deploy.html["lista de parámetros"^].
+NOTE: Debe realizar los cambios necesarios en los parámetros de instalación de Trident (por ejemplo, cambiar los valores para `tridentImage`, `autosupportImage`, repositorio privado de imágenes y provisión `imagePullSecrets`) después de eliminar el operador de ámbito de espacio de nombres y antes de instalar el operador de ámbito de clúster. Para obtener una lista completa de los parámetros que se pueden actualizar, consulte link:../trident-get-started/kubernetes-customize-deploy.html["lista de parámetros"].
 
 +
 [listing]
