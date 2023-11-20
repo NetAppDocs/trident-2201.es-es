@@ -67,7 +67,7 @@ Astra Trident ya no necesita una `etcd`. Utiliza CRD para mantener el estado.
 
 === ¿Admite Astra Trident una instalación sin conexión desde un registro privado?
 
-Sí, Astra Trident se puede instalar sin conexión. Consulte link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy.html["aquí"].
+Sí, Astra Trident se puede instalar sin conexión. Consulte link:trident-get-started/kubernetes-deploy.html["aquí"].
 
 
 
@@ -91,13 +91,13 @@ Astra Trident lee desde el servidor de API de Kubernetes para determinar cuándo
 
 === ¿Cuáles son las funciones y los privilegios que utiliza Astra Trident?
 
-El instalador de Trident crea un archivo Kubernetes ClusterRole que tiene acceso específico a los recursos Persistent Volume, Persistent Claim, StorageClass y Secret del clúster de Kubernetes. Consulte link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-customize-deploy-tridentctl.html["aquí"].
+El instalador de Trident crea un archivo Kubernetes ClusterRole que tiene acceso específico a los recursos Persistent Volume, Persistent Claim, StorageClass y Secret del clúster de Kubernetes. Consulte link:trident-get-started/kubernetes-customize-deploy-tridentctl.html["aquí"].
 
 
 
 === ¿Puedo generar de forma local los archivos de manifiesto exactos que utiliza Astra Trident para la instalación?
 
-Si es necesario, puede generar y modificar localmente los archivos de manifiesto exactos que Astra Trident utiliza para la instalación. Consulte link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-customize-deploy-tridentctl.html["aquí"].
+Si es necesario, puede generar y modificar localmente los archivos de manifiesto exactos que Astra Trident utiliza para la instalación. Consulte link:trident-get-started/kubernetes-customize-deploy-tridentctl.html["aquí"].
 
 
 
@@ -199,7 +199,7 @@ NetApp admite la actualización de Astra Trident de una versión principal a la 
 
 === ¿Es posible degradar Trident a una versión anterior?
 
-Hay una serie de factores que se deben evaluar si se desea cambiar a una versión inferior. Consulte link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/downgrade-trident.html["la sección de la degradación"].
+Hay una serie de factores que se deben evaluar si se desea cambiar a una versión inferior. Consulte link:trident-managing-k8s/downgrade-trident.html["la sección de la degradación"].
 
 
 
